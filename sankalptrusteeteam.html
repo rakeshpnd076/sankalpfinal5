@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<style>
+    h3 {
+        text-decoration: underline;
+        text-transform: uppercase;
+        margin-left: 55px;
+        font-weight: bolder;
+        margin-top: 20px;
+
+    }
+
+    table {
+        width: 70%;
+        margin:auto;
+        margin-bottom: 30px;
+        
+        /* align-items: center; */
+        
+    }
+
+    table tr {
+        margin: auto;
+    }
+
+    tbody>tr>td {
+
+        text-align: center;
+    }
+
+    /* h1 part */
+    h1 {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    h1:before,
+    h1:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 1px solid;
+        margin: auto;
+    }
+
+    h1:before {
+        margin-right: 10px
+    }
+
+    h1:after {
+        margin-left: 10px
+    }
+</style>
+
+<body>
+    <!-- navbar  -->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("sankalpnavbar.html");
+        });
+    </script>
+        <!-- social icons  -->
+    <div id="social-placeholder">
+
+    </div>
+    <script>
+        $(function () {
+            $("#social-placeholder").load("sankalpsocialicons.html");
+        });
+    </script>
+    <h3>Our Trustee</h3>
+    <h1>
+        <img src="./sankalpphotos/sankalplogo.png" alt="" width="200px">
+    </h1>
+    <table border='1'>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Qualification</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Smt. Jayanti Singh</td>
+                <td>Founder Trustee </td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td>Mr. Piyush gaur</td>
+                <td>Trustee</td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td>Smt. Shobha Singh</td>
+                <td>Trustee</td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td>Smt. Mandava Bhavani Devi</td>
+                <td>Trustee</td>
+                <td> - </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Next Table -->
+    <h3>Our Team</h3>
+    <h1>
+        <img src="./sankalpphotos/sankalplogo.png" alt="" width="200px">
+    </h1>
+    <table border='1'>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Qualification</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dr. B. K. Singh</td>
+                <td>Hon. Executive Director</td>
+                <td>Associate Consultant, Neurosciences Department Apollo Hospitals New Delhi</td>
+            </tr>
+            <tr>
+                <td>Dr. Feroz Pasha</td>
+                <td>Hon. Medical Director</td>
+                <td>Sr. Consultant Surgical Oncology Apollo Hospitals N.D.</td>
+            </tr>
+            <tr>
+                <td>Smt. Shobha Singh</td>
+                <td>Director</td>
+                <td> - </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <div id="footer-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#footer-placeholder").load("sankalpfooter.html");
+        });
+    </script>
+
+
+</body>
+
+</html>
